@@ -1,40 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Formularios en HTML</title>
+<!DOCTYPE html><!--Define el archivo como HTML-->
+<html lang="en"><!--Establece el idioma en inglés-->
+<head><!--Encabezado de la página-->
+<meta charset="UTF-8"><!--Permite mostrar acentos, la ñ y caracteres especiales-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Hace que la página se adapte al tamaño de pantalla de celulares-->
+<title>Formularios en HTML</title><!--Es el título que aparece arriba en la pestaña del navegador-->
 <!-- Libreria de iconos en linea -->
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
-awesome/7.3.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"><!--Conecta el código a una librería de internet para poder meter íconos-->
 
-</head>
-<body>
-<h2>Formularios con agrupamiento</h2>
-<form action="" method="post">
-<fieldset>
-<legend>Datos personales</legend>
-Nombre y apellido:
-<input type="text" name="nombre_apellido"><br>
-Documento valido:
-<input type="file" name="documento"><br>
-Fecha de nacimiento:
+</head><!--Se cierra encabezado-->
+<body><!--Cuerpo de la página-->
+<h2>Formularios con agrupamiento</h2><!--Título visible en la página-->
+<form action="" method="post"><!--Contenedor para guardar y enviar los datos recopilados-->
+<fieldset><!--Agrupa datos o campos dentro de un recuadro-->
+<legend>Datos personales</legend><!--Título para el grupo de campos-->
+Nombre y apellido:<!--Texto de indicación para el usuario-->
+<input type="text" name="nombre_apellido"><br><!--Campo para escribir el nombre completo y salto de línea-->
+Documento valido:<!--Texto de indicación para el usuario-->
+<input type="file" name="documento"><br><!--Campo para seleccionar o adjuntar un archivo y salto de línea-->
+Fecha de nacimiento:<!--Texto de indicación para el usuario-->
 
-<input type="date" name="fecha_nacimiento">
-</fieldset>
-<fieldset>
-<legend>Datos de estudio:</legend>
-Nombre de la escuela:
-<input type="text" name="escuela"><br>
-Certificado valido:
-<input type="file" name="certificado"><br>
-Fecha de egreso:
-<input type="date" name="fecha_egreso">
-</fieldset>
-<br>
-<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button>
-<button type="reset">Borrar <i class="fa fa-trash"></i></button>
-</form>
-</body>
-</html>
+<input type="date" name="fecha_nacimiento"><!--Campo para seleccionar una fecha en el calendario-->
+</fieldset><!--Se cierra la primera sección agrupada-->
+<fieldset><!--Agrupa datos o campos dentro de un recuadro-->
+<legend>Datos de estudio:</legend><!--Título para el grupo de campos-->
+Nombre de la escuela:<!--Texto de indicación para el usuario-->
+<input type="text" name="escuela"><br><!--Campo para escribir la escuela y salto de línea-->
+Certificado valido:<!--Texto de indicación para el usuario-->
+<input type="file" name="certificado"><br><!--Campo para seleccionar o adjuntar un archivo y salto de línea-->
+Fecha de egreso:<!--Texto de indicación para el usuario-->
+<input type="date" name="fecha_egreso"><!--Campo para seleccionar una fecha en el calendario-->
+</fieldset><!--Se cierra la segunda sección agrupada-->
+<br><!--Salto de línea-->
+<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button><!--Botón para enviar datos con un icono de avión de papel-->
+<button type="reset">Borrar <i class="fa fa-trash"></i></button><!--Botón para borrar o reiniciar los campos con icono de basura-->
+</form><!--Se cierra el formulario-->
+</body><!--Se cierra el cuerpo-->
+</html><!--Se cierra el archivo html-->
+
+<!-- Ramos Flores Pedro Alexis -->
+<!-- 0643 -->
+<!-- 5-i -->
